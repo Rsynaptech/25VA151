@@ -1,0 +1,19 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #0f51d5;
+      padding: 24px;
+    }
+
+    .table-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #e60d0d;
+      padding: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+
+   
+    th {
+      padding: 10px;
+      color: #c31d1d;
+    }
