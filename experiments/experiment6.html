@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>ecommerce</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cool {
+      background-color: rgb(221, 116, 116);
+      color: rgb(176, 208, 237);
+      font-size: 40px;
+      height: 60px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      border-radius: 50px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .add {
+      border-radius: 10px;
+      width: 320px;
+      padding: 20px;
+      box-shadow: 5px 8px 100px rgb(238, 122, 122);
+      text-align: center;
+      margin: 20px;
+    }
+
+    .timage img {
+      height: 200px;
+      margin-bottom: 15px;
+    }
+
+    .detail {
+      font-size: 22px;
+      font-weight: 600;
+      color: #f58989;
+      margin-bottom: 10px;
+    }
+
+    .discrip {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .price del {
+      color: #c18d8d;
+      margin-left: 8px;
+    }
+
+    .cart {
+      background-color: #65a4e8;
+      color: white;
+      padding: 10px 20px;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+
+    .cart:hover {
+      background-color: #e66767;
+      font-size: 30px;
+    }
+  </style>
+
 </head>
+
 <body>
-    
+  <div class=" cool">X COOLOTH</div>
+  <div class="container">
+
+    <div class="add">
+      <div class="timage">
+
+        <img
+          src="https://i.pinimg.com/1200x/6b/87/99/6b87999aa5c02a90624311761911e6da.jpg"
+          alt="woolen ">
+      </div>
+      <div class="detail">Classic Cotton T-shirt</div>
+      <div class="descrip">
+        Soft, breathable cotton. Regular fit. Available in multiple colors.
+      </div>
+      <div class="price">₹799 <del>₹1,499</del></div>
+      <button class="cart">Add to Cart</button>
+    </div>
+  </div>
 </body>
+
 </html>
